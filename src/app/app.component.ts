@@ -11,6 +11,7 @@ import { GamesPage } from '../pages/games/games';
 import { DietPlansPage } from '../pages/diet-plans/diet-plans';
 import { PharmaciesPage } from '../pages/pharmacies/pharmacies';
 import { SupportServicesPage } from '../pages/support-services/support-services';
+import { VoiceTextPage } from '../pages/voice-text/voice-text';
 
 @Component({
   templateUrl: 'app.html'
@@ -32,7 +33,7 @@ export class MyApp {
       { title: 'Diet Plan and Exercise Routines', component: DietPlansPage },
       { title: 'Pharmacy', component: PharmaciesPage},
       { title: 'Games', component: GamesPage },
-      { title: 'Voice to text Converter', component: null },
+      { title: 'Voice to text Converter', component: VoiceTextPage },
       { title: 'Emergency Reporting', component: EmergencyReportingPage },
       { title: 'Support Services', component:SupportServicesPage  }
     ];

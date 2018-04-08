@@ -15,6 +15,7 @@ import { DietPlansPage } from '../pages/diet-plans/diet-plans';
 import { GamesPage } from '../pages/games/games';
 import { SupportServicesPage } from '../pages/support-services/support-services';
 import { EmergencyReportingPage } from '../pages/emergency-reporting/emergency-reporting';
+import { VoiceTextPage } from '../pages/voice-text/voice-text';
 
 
 @NgModule({
@@ -28,7 +29,8 @@ import { EmergencyReportingPage } from '../pages/emergency-reporting/emergency-r
     PharmaciesPage,
     GamesPage,
     SupportServicesPage,
-    EmergencyReportingPage  
+    EmergencyReportingPage,
+    VoiceTextPage  
   ],
   imports: [
     BrowserModule,
@@ -44,7 +46,8 @@ import { EmergencyReportingPage } from '../pages/emergency-reporting/emergency-r
     PharmaciesPage,
     GamesPage,
     SupportServicesPage,
-    EmergencyReportingPage
+    EmergencyReportingPage,
+    VoiceTextPage
   ],
   providers: [
     StatusBar,
