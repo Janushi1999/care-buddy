@@ -15,18 +15,15 @@
   </p>
 
   <button ion-button secondary menuToggle>Toggle Menu</button> -->
+  <img src='assets/imgs/home.jpg'>
+  
+  <button ion-button block round>Calendars and Reminders</button>
+  <button ion-button block round>Diet plans and exercise routines</button>
+  <button ion-button block round>Pharmacy websites</button>
+  <button ion-button block round>Games</button>
+  <button ion-button block round>Voice to text converter</button>
+  <button ion-button block round>Emergency reporting</button>
+  <button ion-button block round>Support Services</button>
 
-  <ion-list>
-
-      <ion-item>
-        <ion-label fixed>Username</ion-label>
-        <ion-input type="text" value=""></ion-input>
-      </ion-item>
-    
-      <ion-item>
-        <ion-label fixed>Password</ion-label>
-        <ion-input type="password"></ion-input>
-      </ion-item>
-    
-    </ion-list>
+  <ion-nav #mycontent [root]="rootPage"></ion-nav>
 </ion-content>
