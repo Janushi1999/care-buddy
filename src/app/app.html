@@ -7,31 +7,11 @@
 
   <ion-content>
     <ion-list>
-        <!-- (click)="openPage(p)" -->
-      <button menuClose ion-item  >
-         Home
+        
+      <button menuClose ion-item (click)="openPage(x)" *ngFor="let x of pages">
+         {{x.title}}
       </button>
-      <button menuClose ion-item  >
-          Reminders
-       </button>
-       <button menuClose ion-item  >
-          Diet plans and health routines
-       </button>
-       <button menuClose ion-item  >
-          Pharmacy
-       </button>
-       <button menuClose ion-item  >
-          Games
-       </button>
-       <button menuClose ion-item  >
-          Voice to text converter
-       </button>
-       <button menuClose ion-item  >
-          Emergency Reporting
-       </button>
-       <button menuClose ion-item  >
-          Support Services
-       </button>
+     
        
     </ion-list>
   </ion-content>
