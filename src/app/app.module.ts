@@ -34,7 +34,9 @@ import { VoiceTextPage } from '../pages/voice-text/voice-text';
   ],
   imports: [
     BrowserModule,
-    IonicModule.forRoot(MyApp),
+    IonicModule.forRoot(MyApp,{
+      mode:'md'
+    }),
   ],
   bootstrap: [IonicApp],
   entryComponents: [
