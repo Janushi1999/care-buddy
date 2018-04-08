@@ -1,19 +1,41 @@
-<ion-header>
+<ion-header primary>
     <ion-toolbar>
         <ion-title>
-            Add
+            Add Reminder
         </ion-title>
         <ion-buttons start>
             <button ion-button (click)="dismiss()">
-                           
+
                 <ion-icon name="md-close"></ion-icon>
             </button>
         </ion-buttons>
     </ion-toolbar>
 </ion-header>
 <ion-content>
-     <ion-item>
-                <ion-label>Start Time</ion-label>
-                <ion-datetime displayFormat="h:mm A"> </ion-datetime>
-     </ion-item>
+    <img src="http://www.bluthemes.com/assets/img/blog/12/planets.jpg">
+    <ion-list padding="true">
+
+        <ion-item>
+            <ion-label floating>Title</ion-label>
+            <ion-input type="text"></ion-input>
+        </ion-item>
+
+        <ion-item>
+            <ion-label floating>Time</ion-label>
+            <ion-datetime displayFormat="YYYY:MM:DD h:mm A"> </ion-datetime>
+
+        </ion-item>
+
+
+        <ion-item>
+            <ion-label floating>Description</ion-label>
+            <ion-textarea rows="2" type="text"></ion-textarea>
+        </ion-item>
+        <ion-item>
+            <button ion-button block>Save</button>
+        </ion-item>
+
+    </ion-list>
+
+
 </ion-content>
