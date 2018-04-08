@@ -16,6 +16,7 @@ import { GamesPage } from '../pages/games/games';
 import { SupportServicesPage } from '../pages/support-services/support-services';
 import { EmergencyReportingPage } from '../pages/emergency-reporting/emergency-reporting';
 
+
 @NgModule({
   declarations: [
     MyApp,
