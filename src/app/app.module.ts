@@ -9,13 +9,15 @@ import { ListPage } from '../pages/list/list';
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 import { RemindersPage } from '../pages/reminders/reminders';
+import { AddReminderModal } from '../pages/reminders/add-reminder/add-reminder.modal';
 
 @NgModule({
   declarations: [
     MyApp,
     HomePage,
     ListPage,
-    RemindersPage
+    RemindersPage,
+    AddReminderModal
   ],
   imports: [
     BrowserModule,
@@ -26,7 +28,7 @@ import { RemindersPage } from '../pages/reminders/reminders';
     MyApp,
     HomePage,
     ListPage,
-    RemindersPage
+    RemindersPage, AddReminderModal
   ],
   providers: [
     StatusBar,

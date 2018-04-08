@@ -24,7 +24,12 @@ export class MyApp {
     this.pages = [
       { title: 'Home', component: HomePage },
       { title: 'Reminders', component: RemindersPage },
-      { title: 'Diet Plan', component: null }
+      { title: 'Diet Plan and Exercise Routines', component: null },
+      { title: 'Pharmacy', component: null},
+      { title: 'Games', component: null },
+      { title: 'Voice to text Converter', component: null },
+      { title: 'Emergency Reporting', component: null },
+      { title: 'Support Services', component: null }
     ];
 
   }
