@@ -12,5 +12,8 @@
     </ion-toolbar>
 </ion-header>
 <ion-content>
-  
+     <ion-item>
+                <ion-label>Start Time</ion-label>
+                <ion-datetime displayFormat="h:mm A" pickerFormat="h mm A" [(ngModel)]="event.timeStarts"></ion-datetime>
+     </ion-item>
 </ion-content>
