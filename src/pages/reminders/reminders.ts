@@ -33,6 +33,12 @@ export class RemindersPage {
       desc: 'Grand Son turns 10',
       tag: ' Birthday',
       img: 'assets/imgs/birthday.png'
+    },
+    {
+      time: '10.00 AM',
+      desc: 'Take morning medicine',
+      tag: ' Medicine',
+      img: 'assets/imgs/med.png'
     }
   ];
 
