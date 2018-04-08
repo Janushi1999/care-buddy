@@ -5,14 +5,38 @@
   Ionic pages and navigation.
 -->
 <ion-header>
-
   <ion-navbar>
-    <ion-title>diet-plans</ion-title>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Diet-plans</ion-title>
   </ion-navbar>
-
+  
 </ion-header>
 
 
 <ion-content padding>
+<h1> Pick your category </h1>
+<ion-list radio-group [(ngModel)]="relationship">
+  <ion-item>
+    <ion-label>Diabetes</ion-label>
+    <ion-radio value="Diabetes" checked></ion-radio>
+  </ion-item>
+  <ion-item>
+    <ion-label>Cholestorol</ion-label>
+    <ion-radio value="Cholestorol"></ion-radio>
+  </ion-item>
+  <ion-item>
+    <ion-label>High blood pressure</ion-label>
+    <ion-radio value="High blood pressure" [disabled]="isDisabled"></ion-radio>
+  </ion-item>
+  <ion-item>
+    <ion-label>Obesity</ion-label>
+    <ion-radio value="Obesity" [disabled]="isDisabled"></ion-radio>
+  </ion-item>
+</ion-list>
 
+<button ion-button>Get a diet plan</button>
+
+<button ion-button color="secondary">Get an exercise routine</button>
 </ion-content>
