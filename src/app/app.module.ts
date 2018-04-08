@@ -21,7 +21,7 @@ import { EmergencyReportingPage } from '../pages/emergency-reporting/emergency-r
     MyApp,
     HomePage,
     ListPage,
-    RemindersPage,
+  RemindersPage,
     AddReminderModal,
     DietPlansPage,
     PharmaciesPage,
