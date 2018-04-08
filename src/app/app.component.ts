@@ -6,6 +6,11 @@ import { SplashScreen } from '@ionic-native/splash-screen';
 import { HomePage } from '../pages/home/home';
 import { ListPage } from '../pages/list/list';
 import { RemindersPage } from '../pages/reminders/reminders';
+import { EmergencyReportingPage } from '../pages/emergency-reporting/emergency-reporting';
+import { GamesPage } from '../pages/games/games';
+import { DietPlansPage } from '../pages/diet-plans/diet-plans';
+import { PharmaciesPage } from '../pages/pharmacies/pharmacies';
+import { SupportServicesPage } from '../pages/support-services/support-services';
 
 @Component({
   templateUrl: 'app.html'
@@ -24,12 +29,12 @@ export class MyApp {
     this.pages = [
       { title: 'Home', component: HomePage },
       { title: 'Reminders', component: RemindersPage },
-      { title: 'Diet Plan and Exercise Routines', component: null },
-      { title: 'Pharmacy', component: null},
-      { title: 'Games', component: null },
+      { title: 'Diet Plan and Exercise Routines', component: DietPlansPage },
+      { title: 'Pharmacy', component: PharmaciesPage},
+      { title: 'Games', component: GamesPage },
       { title: 'Voice to text Converter', component: null },
-      { title: 'Emergency Reporting', component: null },
-      { title: 'Support Services', component: null }
+      { title: 'Emergency Reporting', component: EmergencyReportingPage },
+      { title: 'Support Services', component:SupportServicesPage  }
     ];
 
   }
